@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DB\" />
+    <None Remove="Entities\" />
+    <None Remove="Repositories\" />
+    <None Remove="FactoryMethod\" />
+    <None Remove="Dtos\" />
+    <None Remove="Decorator\" />
+    <None Remove="Strategy\" />
+    <None Remove="Command\" />
+    <None Remove="Mediator\" />
+    <None Remove="Builder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DB\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="FactoryMethod\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="Strategy\" />
+    <Folder Include="Command\" />
+    <Folder Include="Mediator\" />
+    <Folder Include="Builder\" />
+  </ItemGroup>
+</Project>

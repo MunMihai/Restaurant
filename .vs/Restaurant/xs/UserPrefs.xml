@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{A5AEDE7B-833E-4F15-BB1F-37E6A9E9C710}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Restaurant/Program.cs">
+    <Files>
+      <File FileName="Restaurant/DB/RestaurantDbContext.cs" Line="5" Column="25" />
+      <File FileName="Restaurant/Controllers/EventController.cs" Line="28" Column="61" />
+      <File FileName="Restaurant/Controllers/EventOrderInputModel.cs" Line="3" Column="34" />
+      <File FileName="Restaurant/Controllers/FeedbackController.cs" Line="14" Column="57" />
+      <File FileName="Restaurant/Controllers/MenuController.cs" Line="122" Column="2" />
+      <File FileName="Restaurant/Controllers/OrderTableController.cs" Line="23" Column="40" />
+      <File FileName="Restaurant/Controllers/PreorderedDishController.cs" Line="30" Column="28" />
+      <File FileName="Restaurant/Program.cs" Line="15" Column="44" />
+      <File FileName="Restaurant/Repositories/PreorderedDishRepository.cs" Line="41" Column="1" />
+      <File FileName="Restaurant/Decorator/FeedbackDecorator.cs" Line="13" Column="10" />
+      <File FileName="Restaurant/FactoryMethod/MenuItemFactory.cs" Line="8" Column="26" />
+      <File FileName="Restaurant/FactoryMethod/MenuItemType.cs" Line="12" Column="1" />
+      <File FileName="Restaurant/Dtos/MenuItemDto.cs" Line="31" Column="1" />
+      <File FileName="Restaurant/Entities/PreorderedDish.cs" Line="45" Column="1" />
+      <File FileName="Restaurant/Entities/OrderTable.cs" Line="10" Column="15" />
+      <File FileName="Restaurant/Builder/EventBuilder.cs" Line="77" Column="1" />
+      <File FileName="Restaurant/Entities/EventOrder.cs" Line="3" Column="1" />
+      <File FileName="Restaurant/Entities/EventType.cs" Line="9" Column="2" />
+      <File FileName="Restaurant/Entities/MenuItem.cs" Line="4" Column="27" />
+      <File FileName="Restaurant/Entities/TableNumber.cs" Line="1" Column="31" />
+      <File FileName="Restaurant/appsettings.json" Line="10" Column="83" />
+      <File FileName="Restaurant/Command/CreateOrderCommand.cs" Line="12" Column="44" />
+      <File FileName="Restaurant/Mediator/CreateOrderCommandHandler.cs" Line="34" Column="83" />
+      <File FileName="Restaurant/Repositories/IPreorderedDishRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Restaurant" expanded="True">
+            <Node name="Restaurant">
+              <Node name="Builder" expanded="True" />
+              <Node name="Command" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DB" expanded="True" />
+              <Node name="Decorator" expanded="True" />
+              <Node name="Dtos" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="FactoryMethod" expanded="True" />
+              <Node name="Mediator" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Restaurant PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>
